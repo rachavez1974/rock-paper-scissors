@@ -81,13 +81,14 @@ function playRound(e){
     }
   }
 
+
+  console.log(playerWins)
+  console.log(computerWins)
+  makeClickMeButton(parentDiv)
   if(playerWins === 5 || computerWins === 5){
     computerWins = 0
     playerWins = 0
   }
-  console.log(playerWins)
-  console.log(computerWins)
-  makeClickMeButton(parentDiv)
 }
 
   let computerWins = 0
